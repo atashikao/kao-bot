@@ -3,13 +3,12 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log('I am ready!');
-    //status
-    bot.user.setGame('kao',https://www.twitch.tv/atashikao'); //
+    
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.reply('pong');
+    if (message.content === 'kao') {
+    	message.reply('ape?');
   	}
 });
 
